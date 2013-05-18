@@ -8,7 +8,7 @@ license: AGPLv3
 usage
 -----
 * plain shell: ```# ./install-latex-fontfile.sh LATEXFONTFILE.zip```
-* as zsh-function: ```install-latex-fontfile.sh LATEXFONTFILE.zip```
+* as zsh-function: ```install-latex-fontfile LATEXFONTFILE.zip```
 
 zsh function
 ------------
