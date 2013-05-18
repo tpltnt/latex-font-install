@@ -5,7 +5,7 @@
 # licensed under the AGPLv3
 # http://www.gnu.org/licenses/agpl-3.0.html
 
-if [ "$#" -ne 1 ] || ! [ -d "$1" ]; then
+if [ "$#" -ne 1 ] || ! [ -f "$1" ]; then
   echo "Usage: $0 LATEXFONTFILE.zip" >&2
   exit 1
 fi
